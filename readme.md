@@ -1,6 +1,7 @@
 # Function J - Free Terminal Assistant Powered by AI
 
-<span style="color: #39d353;">Say goodbye to memorizing complex commands</span>
+Say goodbye to memorizing complex commands
+
 ## Overview
 Function J is a free terminal assistant powered by AI. It is designed to help you convert plain text instructions into ready-to-use commands. With Function J, you can quickly transform natural language into executable commands, making your terminal tasks more efficient and accessible.
 
