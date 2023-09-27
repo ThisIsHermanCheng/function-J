@@ -24,22 +24,29 @@ For example:
 fj show containers
 ```
 
-Function J will promptly respond with a list of command options for listing all containers in Docker. You can select the most suitable command using the *tab* key and execute it by pressing enter.
+Function J will promptly respond with a list of command options for listing all containers in Docker. You can select the most suitable command using the `tab` key and execute it by pressing `enter`.
 ```
 docker ps   |   docker container ls   |   docker ps -a
 ```
 
+## Demo
+![Animation](https://github.com/ThisIsHermanCheng/function-J/assets/45646023/2c89d157-d296-4626-9bc6-70e889055c4a)
+
+
 ## Why Use Function J?
 
-#### Dislike Memorizing Commands
+<u> Dislike Memorizing Commands </u>
+
 Tired of trying to remember lengthy and intricate terminal commands.
 Frequently Forget Commands: Find themselves forgetting commands, even if they've used them multiple times.
 
-#### Prefer Easy Access to Commands
+<u> Prefer Easy Access to Commands </u>
+
 Don't want to spend time searching online for command syntax.
 Question Command Options: Want clarity on command parameters like '-h' and what they stand for (help, host, header, etc.).
 
-#### Keyboard-Friendly Shortcut
+<u> Keyboard-Friendly Shortcut </u>
+
 The choice of 'fj' as the prefix for Function J was intentional. These keys are conveniently located on the keyboard, making it effortless to access this powerful terminal assistant.
 
 ---
