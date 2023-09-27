@@ -35,19 +35,21 @@ docker ps   |   docker container ls   |   docker ps -a
 
 ## Why Use Function J?
 
-<u> Dislike Memorizing Commands </u>
+***Dislike Memorizing Commands***
 
 Tired of trying to remember lengthy and intricate terminal commands.
 Frequently Forget Commands: Find themselves forgetting commands, even if they've used them multiple times.
 
-<u> Prefer Easy Access to Commands </u>
+***Prefer Easy Access to Commands***
 
 Don't want to spend time searching online for command syntax.
 Question Command Options: Want clarity on command parameters like '-h' and what they stand for (help, host, header, etc.).
 
-<u> Keyboard-Friendly Shortcut </u>
+***Keyboard-Friendly Shortcut***
 
 The choice of 'fj' as the prefix for Function J was intentional. These keys are conveniently located on the keyboard, making it effortless to access this powerful terminal assistant.
+
+![keyboard](https://github.com/ThisIsHermanCheng/function-J/assets/45646023/8483cceb-828b-450f-84fe-e9057027ff2b)
 
 ---
 
