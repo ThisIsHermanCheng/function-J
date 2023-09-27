@@ -1,0 +1,16 @@
+{
+  "name": "function-j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fj": "./index.js"
+  },
+  "keywords": [],
+  "author": "Function J",
+  "license": "ISC",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "openai": "^4.10.0"
+  }
+}
