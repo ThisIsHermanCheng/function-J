@@ -26,10 +26,25 @@ For example:
 fj show containers
 ```
 
-Function J will promptly respond with a list of command options for listing all containers in Docker. You can select the most suitable command using the `tab` key and execute it by pressing `enter`.
+Function J will provide a list of command options. Select the most suitable command using the `tab` key and execute it by pressing `enter`.
 ```
 docker ps   |   docker container ls   |   docker ps -a
 ```
+
+For some cases, user input is needed within the command options containing curly braces.
+
+
+```
+fj creat file
+```
+
+```
+touch {file_name}  |  echo > {file_name}  |  cat > {file_name}
+-------------------------------------------------------
+Please input the following values
+file_name:
+```
+
 
 ## Demo
 ![Animation](https://github.com/ThisIsHermanCheng/function-J/assets/45646023/009da273-44d8-4f5c-afcb-d6c26001c885)
