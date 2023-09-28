@@ -1,6 +1,6 @@
 async function ask(question) {
     try {
-        const response = await fetch(`https://functionj.com/api/v1/ask?question=${question}`);
+        const response = await fetch(`https://api.functionj.com/v1/ask?question=${question}`);
         if (!response.ok) {
             if (response.status === 404) console.log('Resource not found')
             else if (response.status === 400) console.log('Please retry');
