@@ -17,7 +17,8 @@ function setIndex(newValue) {
 function displayOptions() {
     options.selected = options.list[options.index];
 
-    process.stdout.write('\x1b[100D\x1b[0K');
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
 
     for (let i = 0; i < options.list.length; i++) {
 
@@ -30,6 +31,7 @@ function displayOptions() {
         }
     }
 }
+
 
 module.exports = {
     options,
